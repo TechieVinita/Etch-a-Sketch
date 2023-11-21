@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+}
+
+.header{
+    width: 50vw;
+    display: flex;
+    justify-content: space-around; 
+    padding: 10px;
+}
+
+.btn{
+    padding: 5px 10px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 247, 238);
+}
+
+.container{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+
+.grid{
+    background-color : rgb(255, 255, 255);
+    border : 0.01px transparent rgb(179, 179, 179);
+}
